@@ -18,18 +18,12 @@ a.logo{
     text-align: left;
     color:#2196F3;}
     
-.main-navigation a {
-    position:fixed;
-    width: 259px;
-    height: 16px;
-    top: 32px;
+.main-navigation ul a {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
     font-family: var(--text-font-family);
     font-size: 0.875em;
-    font-weight: 500;
-    line-height: 1em;
-    letter-spacing: 0.02em;
-    text-align: right;
-    padding:0  
     }
 a.active {
     width: 259px;
@@ -169,3 +163,125 @@ text-align: left;
 color:#FFFFFF99
 }
 
+/*index html first page */
+
+.container-header-container {
+    width: 1600px;
+    height: 80px;
+    background-color: #FFFFFF;  
+}
+
+.navigation ul, .global-header  {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.navigation ul {
+
+    height: 16px;
+    top: 32px;
+    left: 545px;
+    list-style: none;
+    display:flex;
+    width : 450px;
+    justify-content: space-evenly;
+
+}
+
+.global-aside {
+    display:flex;
+    flex-direction: column;
+}
+
+.main-content{
+    text-align: center;
+    width: 100%;
+    top: 80px;
+    left: 452px;
+    background-color: #2F303A;
+    color:white;
+    padding: 40px 50px 100px;
+}
+
+.button-request {
+    background: #2196F3;
+    color:white;
+    width: 200px;
+    height: 50px;
+    top: 430px;
+    left: 700px;
+    border-radius: 4px;
+    font-family:'Roboto';
+}
+.container-advantages {
+    width: 1170px;
+    height: 101px;
+    top: 774px;
+    left: 215px;
+}
+.quality {
+    display: inline-block;
+    justify-content: space-between;
+}
+.principal-quality {
+    display:inline-flex;
+    width: 270px;
+    height: 16px;
+    top: 774px;
+    left: 1115px;
+}
+.description-quality {
+    display:flex;
+    width: 270px;
+    height: 75px;
+    top: 800px;
+    left: 1115px;
+}
+
+.team-portfolio{
+    width: 1170px;
+    height: 386px;
+    top: 969px;
+    left: 215px;
+    padding: 40px 50px 100px;
+}
+
+.portfolio-title {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.portfolio-example {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.team{
+    width: 1600px;
+    height: 648px;
+    top: 1449px;
+    padding: 40px 50px 100px;
+    background-color:#F5F4FA;
+}
+.team-title {
+    text-align:center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;   
+}
+.team-members{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.footer{
+width: 1600px;
+height: 251px;
+top: 2097px;
+}
