@@ -224,6 +224,13 @@ color:#FFFFFF99
     align-content: center;
     margin-left: 60px;
 }
+.qualities {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+
+}
 .quality {
     display: inline-block;
     justify-content: space-between;
