@@ -208,7 +208,7 @@ color:#FFFFFF99
     color:white;
     padding: 40px 50px 100px;
     background:linear-gradient(#2F303A66, #2F303A66) ;
-    background-image: url(':/Images/background-image.jpg');
+    background-image: url('./Images/background-image.jpg');
 }
 
 .button-request {
